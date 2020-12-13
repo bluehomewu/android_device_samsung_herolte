@@ -23,11 +23,11 @@ $(call inherit-product, device/samsung/herolte/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := herolte
-PRODUCT_NAME := lineage_herolte
+PRODUCT_NAME := havoc_herolte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G930F
 PRODUCT_MANUFACTURER := samsung
